@@ -1,0 +1,188 @@
+.get-in-and-footer {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../assets/first.svg");
+  background-size: cover;
+  color: #fff !important;
+}
+.get-in-touch {
+  padding-bottom: 0 !important;
+}
+
+.footer {
+  background: rgba(217, 217, 217, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.git-left,
+.git-right {
+  width: 80%;
+  margin: auto;
+}
+.git-left a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.get-in-touch,
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 50px; */
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+.git-left h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.git-left p {
+  width: 80%;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+.git-right {
+  display: flex;
+  justify-content: end;
+}
+.git-right p {
+  width: 80%;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.f-left img {
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+.f-left {
+  width: 50%;
+  /* margin-right: 10%; */
+}
+.f-left > p {
+  margin-bottom: 35px;
+}
+
+.f-right {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.mobile-girl {
+  display: none;
+}
+.desktop-girl {
+  display: unset;
+  position: relative;
+  top: 10px;
+}
+.git-left-para {
+  display: none;
+}
+.quick-links h3,
+.follow-links h3 {
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+@media (max-width: 930px) {
+  .get-in-and-footer {
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 23%;
+    min-height: unset;
+  }
+  .get-in-touch,
+  .footer {
+    flex-direction: column;
+    padding: 1% 2%;
+  }
+  .text-holder {
+    display: unset;
+  }
+  .mobile-girl {
+    display: unset;
+    width: 150px;
+    position: absolute;
+    width: 30vw;
+    bottom: 0;
+    right: 0%;
+  }
+  .git-right p {
+    width: 85%;
+  }
+  .git-left p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .desktop-girl {
+    display: none;
+    width: 150px;
+  }
+  .git-left,
+  .git-left-para {
+    display: unset;
+  }
+  .text-holder {
+    margin-bottom: 25px;
+  }
+
+  .text-holder > a {
+    /* position: absolute; */
+    /* top:15%; */
+    font-size: 1.5rem;
+  }
+
+  .git-left-para {
+    font-size: 1rem !important;
+    margin-top: 25px;
+  }
+  .git-right {
+    margin-top: 20%;
+    justify-content: start;
+  }
+  .f-left {
+    width: 80%;
+  }
+  .f-right {
+    width: 80%;
+
+    justify-content: inherit;
+    padding-right: 20%;
+  }
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .f-left img {
+    height: 60px;
+    margin-bottom: 25px;
+  }
+  .f-left > p {
+    width: 105%;
+  }
+  .quick-links {
+    margin-right: -10%;
+  }
+  .get-in-touch {
+    padding-top: 15px;
+    position: relative;
+  }
+}
+
+@media (max-width: 900px) {
+  .git-right p {
+    display: none;
+  }
+}

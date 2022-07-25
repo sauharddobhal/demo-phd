@@ -1,0 +1,186 @@
+.first-section {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../assets/first.svg');
+  background-size: cover;
+  color: #fff !important;
+}
+.phd-section {
+  /* width: 80%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin: 0 auto; */
+  /* margin-left: auto; */
+}
+
+.phd-section-contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.section-phd {
+  margin-left: 20%;
+}
+
+.phd-section-text {
+  width: 75%;
+  position: relative;
+  margin-top: -12%;
+  /* flex:0.8 */
+}
+.geu-admissions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.geu-admissions-heading {
+  color: rgba(255, 255, 255, 0.2);
+  transform: rotate(-90deg);
+  font-size: 2rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.apply-now {
+  font-size: 3rem !important;
+  margin-left: 8%;
+}
+
+.phd-section-contact {
+  background-color: rgba(0, 0, 0, 0.37);
+  height: 100vh;
+}
+.phd-heading {
+  color: #fff;
+  font-size: 8em;
+  margin-right: 10px;
+}
+.details-holder {
+  display: flex;
+}
+.ad-open {
+  color: #fff;
+  font-size: 3.35em;
+  line-height: 50px;
+  /* margin-top: 7%; */
+  top: 44px;
+}
+
+.section-phd > p {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 2%;
+  width: 80%;
+}
+
+.phd-section-text > img {
+  margin-bottom: 1.5%;
+  height: 12vh;
+}
+.blur-bg {
+  background: rgba(217, 217, 217, 0.1);
+  backdrop-filter: blur(50px);
+  /* display: flex; */
+  margin-top: 25px;
+  padding-left: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.phd-heading-container {
+  display: flex;
+}
+
+.details {
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.august {
+  color: #fff;
+  font-size: 2.2em;
+  /* margin-top: 10px; */
+}
+.-paragraph {
+  margin-top: 0 !important;
+  padding-bottom: 50px;
+}
+.home-page-carosel span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: rgba(255, 255, 255, 0.51);
+}
+.home-page-carosel h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 4.5rem;
+}
+.home-page-carosel p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  width: 550px;
+  line-height: 2rem;
+  margin-top: 20px;
+  color: #c7c7c7;
+}
+.home-page-wrap {
+  display: flex;
+  width: 69%;
+  margin: 0 auto;
+  padding-top: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phd-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ad-open{position: relative;}
+@media only screen and (max-width: 1200px) {
+  .phd-heading{
+    font-size: 5em;
+  }
+  .ad-open{
+    font-size: 2em;
+    line-height: 30px;
+  }
+  .first-section{
+    height: auto;
+  }
+  .phd-section-text{
+    margin-top: -120px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .phd-section {
+    flex-direction: column;
+  }
+  .first-section{
+    height: auto;
+  }
+  .phd-section-text{
+    position: static;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .blur-bg{
+    position: static;
+
+  }
+}
+
+@media only screen and (max-width:800px) {
+    
+}
